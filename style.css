@@ -1,0 +1,28 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    font-size: 50px;
+    font-weight: bold;
+    background-color: antiquewhite;
+}
+
+.date {
+    font-size: 60px;
+    color: green;
+}
+
+.time {
+    font-size: 120px;
+    color: brown;
+}
